@@ -1,6 +1,6 @@
 function sumWithoutMinMax(arr) {
     if (!Array.isArray(arr) || arr.length < 3) {
-      return "Invalid input. Please provide an array with at least three elements.";
+      return "This is an invalid input. Please provide an array with at least three elements.";
     }
     const min = Math.min(...arr);
     const max = Math.max(...arr);
