@@ -1,2 +1,2 @@
-let str = 'webbrain \l academy'
-console.log(str);     
+let str = 'webbrain'
+console.log(str.repeat(10));     
