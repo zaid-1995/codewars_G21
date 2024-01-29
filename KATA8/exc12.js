@@ -1,8 +1,11 @@
 let person = {
     name: 'Zukhriddin',
-    'full-name': 'Jabborov Zukhriddin Khoshimjon Ugli',
-    950608: 'date of birth'
+    age: 28,
+    status: 'Student'
 } 
-console.log(person.name);
-console.log(person['full-name']);
-console.log(person[950608]);
+
+person.name = 'Abbosbek'
+person.job = 'Front-end developer'
+delete person.age
+
+console.log(person);
