@@ -1,16 +1,27 @@
-let student = new Map();
+let students = new Map();
 
-student.set('name1', 'Zaid');
-student.set('name2', 'Ali');
-student.set('name3', 'Muhammad');
+students.set("name1", "Zaid");
+students.set("name2", "Ali");
+students.set("name3", "Muhammad");
 
-console.log(student);
-console.log(student.get('name2'));
-console.log(student.size);
-console.log(student.keys());
-console.log(student.values());
-console.log(student.entries());
+// forEach() with new Map()
+students.forEach((value, key, map) => {
+    console.log(value);
+    console.log(key);
+    console.log(map);
+});
 
-student.delete('name2')
-console.log(student);
+// LOOP METHOD for-of with new Map()
+for(let entries of students){
+    console.log(entries);
+}
 
+console.log(students);
+console.log(students.get("name2"));
+console.log(students.size);
+console.log(students.keys());
+console.log(students.values());
+console.log(students.entries());
+
+students.delete("name2");
+console.log(students);
