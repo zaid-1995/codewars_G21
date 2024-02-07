@@ -14,11 +14,11 @@ let user = {
 
 let sum = 0;
 
-let getAge = (object) => {
-  sum += object.age;
+let getAge = (obj) => {
+  sum += obj.age;
 
-  if (object.child) {
-    getAge(object.child)
+  if (obj.child) {
+    getAge(obj.child)
   }
 };
 
