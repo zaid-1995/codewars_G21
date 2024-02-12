@@ -1,4 +1,4 @@
-// Destructure in Array
+// Destructure in Array 
 
 let arr = ["Zaid", "Murod", "Ali"];
 
