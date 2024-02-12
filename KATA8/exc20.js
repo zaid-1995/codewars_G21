@@ -12,7 +12,7 @@ let obj = {
   },
 };
 
-let {name, occupation, age,  friend: { ismi, kasbi, yoshi} } = obj;
+let {name, occupation, age,  friend: {ismi, kasbi, yoshi} } = obj;
 
 console.log(name);
 console.log(occupation);
