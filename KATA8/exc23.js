@@ -8,15 +8,16 @@ class User {
   }
 
   register() {
-    console.log(`${this.username} is now registered successfully.`);
+    console.log(`${this.username} is now registered to the ${this.membership} membership successfully.`);
   }
 }
 
 class Member extends User {
-  constructor(username, email, password) {
+  constructor(username, email, password, membership) {
     super(username, email, password);
+    this.membership = membership;   
   }
 }
 
-let member = new Member("Zaid");
+let member = new Member('Zaid', 'whitepanda.net@gmail.com', 'jz12345', 'Premium');
 member.register();
