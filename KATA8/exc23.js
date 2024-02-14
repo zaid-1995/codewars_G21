@@ -7,7 +7,7 @@ class User {
     this.password = password;
   }
 
-  register() {
+  registeration() {
     console.log(`${this.username} is now registered to the ${this.membership} membership successfully.`);
   }
 }
@@ -20,4 +20,4 @@ class Member extends User {
 }
 
 let member = new Member('Zaid', 'whitepanda.net@gmail.com', 'jz12345', 'Premium');
-member.register();
+member.registeration();
