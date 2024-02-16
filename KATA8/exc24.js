@@ -9,7 +9,7 @@ try {
 
 let users = {
   username: "zaid95",
-  password: "19950608",
+  password: "950608",
 };
 
 let facebook = (pw, usn, callback) => {
@@ -22,6 +22,6 @@ let facebook = (pw, usn, callback) => {
   }, 2000);
 };
 
-let user = facebook("19950608", "zaid95", (data) => {
+let user = facebook("950608", "zaid95", (data) => {
   console.log(data);
 });
