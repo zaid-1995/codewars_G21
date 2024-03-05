@@ -17,3 +17,17 @@ var number=function(array){
       return (index + 1) + ": " + line;
     });
   }
+
+  
+//   third method
+var number = function(arr) {
+    var newArr = [];
+      if (arr.length === 0) {
+        return [];
+      } else {
+        for (var i = 0, len = arr.length; i < len; i += 1) {
+          newArr.push((i + 1) + ': ' + arr[i]);
+        }
+      }
+      return newArr;
+    }
