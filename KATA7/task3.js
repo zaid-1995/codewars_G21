@@ -1,7 +1,6 @@
 function calculatePoints(matches) {
     let totalPoints = 0;
 
-    // Iterate over each match
     for (let i = 0; i < matches.length; i++) {
         const match = matches[i];
         const [ourScore, opponentScore] = match.split(':').map(Number);
