@@ -19,7 +19,7 @@ var number=function(array){
   }
 
 
-//   third method
+//   third method with function
 var number = function(arr) {
     var newArr = [];
       if (arr.length === 0) {
