@@ -31,3 +31,20 @@ var number = function(arr) {
       }
       return newArr;
     }
+
+// multiply th number
+    function multiply(number){
+      //your code here
+    }
+    
+    function multiply(number) {
+        const digitsPower = Math.pow(5, Math.abs(number).toString().length);
+        return number * digitsPower;
+    }
+    
+    // Test cases
+    console.log(multiply(3));   // Output: 15
+    console.log(multiply(10));  // Output: 250
+    console.log(multiply(200)); // Output: 25000
+    console.log(multiply(0));   // Output: 0
+    console.log(multiply(-3));  // Output: -15
