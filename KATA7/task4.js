@@ -24,3 +24,4 @@ console.log(isLeapYear(2024));  // Output: true
 console.log(isLeapYear(2100));  // Output: false
 console.log(isLeapYear(2400));  // Output: true
 console.log(isLeapYear(2023));  // Output: false
+console.log(isLeapYear(2024));  // Output: true
